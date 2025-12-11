@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-code-display',
-  standalone: true,
   imports: [CommonModule],
   templateUrl: './code-display.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
